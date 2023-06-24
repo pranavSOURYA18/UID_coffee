@@ -1,0 +1,50 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675435646764-54d18dab6bd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    width: 50%;
+    height: 80%;
+    backdrop-filter: blur(25px);
+  border-radius: 30px;
+  margin: 0 25%;
+  color: azure;
+  
+  }
+  @font-face {
+    font-family: "chomsky";
+    src: url(./public/fonts/layfort.otf);
+  }  
+  
